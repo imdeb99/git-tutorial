@@ -1,0 +1,57 @@
+I'm Apu Deb Chowdhury. 
+I'm from Sylhet, Bangladesh. 
+I recently completed my undergraduate degree in computer science and engineering at Leading University(LU) in Sylhet.
+
+***Git Tutorial***
+
+Git is an tool uses for this things:
+
+Git Uses:
+Version control System
+Keep track of Changes
+Collaboration on a
+
+Same kind of tools like are:
+1. GitLab
+2. Beanstalk
+3. PerForce
+4. Bitbucket
+More than 70% of Developer use Git.
+
+
+Git & GitHub Difference:
+
+Github is service -- Git is a tool
+Github provide GUI interface -- Git provides CLI(Command Line interface)
+Github maintain with web or cloud -- Git installed and maintain locally
+
+
+Github Version Check: 
+Check Git Version check: git --version
+
+Vs Code GitHub Account Configaration:
+
+User name Check korar jonno: git config user.name
+User Email Check korar jonno: git config user.email
+
+config user name: git config --global user.name "imdeb99"
+config user email: git config --global user.email "apudeb2000@gmail.com"
+
+
+Git Project Posh to Github:
+
+1. Git Initialization:          git init
+
+2. Git Add specific file:       git add file name   
+   Git Add all files:           git add .
+
+   Git status check (file modified or not):     git status              //show file modified or not
+   Git status restore:                          git restore file name
+   Git difference check:                        git diff                //show the difference like how many changes 
+
+3. Git Commit:
+
+    git commit -m "first commit" => it's send a message like first commit
+                                    -m refers to send a message like first commit
+
+    
