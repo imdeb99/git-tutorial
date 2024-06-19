@@ -37,7 +37,6 @@ User Email Check korar jonno: git config user.email
 config user name: git config --global user.name "imdeb99"
 config user email: git config --global user.email "apudeb2000@gmail.com"
 
-
 Git Project Posh to Github:
 
 1. Git Initialization:          git init
@@ -60,9 +59,10 @@ Git Project Posh to Github:
     git reset:                                  git reset --soft commitid
     git commit changes:                         git checkout commitid            //one commit to another commit   
 
+    git remote origin check:                    git remote -v
 
-
-
+4. git branch -M main
+5. git push -u origin main
 
 …or create a new repository on the command line
 echo "# git-tutorial" >> README.md
