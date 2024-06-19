@@ -54,4 +54,27 @@ Git Project Posh to Github:
     git commit -m "first commit" => it's send a message like first commit
                                     -m refers to send a message like first commit
 
-    
+    git commit history check:                   git log                 //show how many changes of an software( versoin check)
+    git commit history check with summary:      git log --oneline       //show only summary of changes 
+    git log commit id:                          git log --oneline
+    git reset:                                  git reset --soft commitid
+    git commit changes:                         git checkout commitid            //one commit to another commit   
+
+
+
+
+
+…or create a new repository on the command line
+echo "# git-tutorial" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/imdeb99/git-tutorial.git
+git push -u origin main
+
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/imdeb99/git-tutorial.git
+git branch -M main
+git push -u origin main
