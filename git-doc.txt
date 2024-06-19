@@ -61,8 +61,8 @@ Git Project Posh to Github:
 
     git remote origin check:                    git remote -v
 
-4. git branch -M main
-5. git push -u origin main
+4.  git branch -M main
+5.  git push -u origin main
 
 …or create a new repository on the command line
 echo "# git-tutorial" >> README.md

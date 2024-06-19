@@ -38,8 +38,7 @@
             padding: 2px 4px;
             border-radius: 4px;
         }
-        ul {
-            list-style-type: disc;
+        ul, ol {
             margin: 10px 0 10px 20px;
         }
     </style>
@@ -49,7 +48,7 @@
         <h1>Git Tutorial</h1>
         <p><strong>Apu Deb Chowdhury</strong><br>
         Sylhet, Bangladesh</p>
-        <p>I recently completed my undergraduate degree in computer science and engineering at Leading University (LU),Sylhet.</p>
+        <p>I recently completed my undergraduate degree in computer science and engineering at Leading University (LU) in Sylhet.</p>
 
         <h2>Git Uses</h2>
         <p>Git is a tool used for:</p>
@@ -110,10 +109,36 @@ git add .          // to add all files</code></pre>
                 <pre><code>git log</code></pre>
                 <p>Check commit history with summary:</p>
                 <pre><code>git log --oneline</code></pre>
+                <p>Get commit ID in log:</p>
+                <pre><code>git log --oneline</code></pre>
                 <p>Reset to a previous commit:</p>
                 <pre><code>git reset --soft [commit id]</code></pre>
+                <p>Checkout a specific commit:</p>
+                <pre><code>git checkout [commit id]</code></pre>
+                <p>Check remote origin:</p>
+                <pre><code>git remote -v</code></pre>
+            </li>
+            <li><strong>Create and switch to main branch:</strong>
+                <pre><code>git branch -M main</code></pre>
+            </li>
+            <li><strong>Push to GitHub:</strong>
+                <pre><code>git push -u origin main</code></pre>
             </li>
         </ol>
+
+        <h2>Create a New Repository on the Command Line</h2>
+        <pre><code>echo "# git-tutorial" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/imdeb99/git-tutorial.git
+git push -u origin main</code></pre>
+
+        <h2>Push an Existing Repository from the Command Line</h2>
+        <pre><code>git remote add origin https://github.com/imdeb99/git-tutorial.git
+git branch -M main
+git push -u origin main</code></pre>
     </div>
 </body>
 </html>
