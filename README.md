@@ -48,7 +48,8 @@
         <h1>Git Tutorial</h1>
         <p><strong>Apu Deb Chowdhury</strong><br>
         Sylhet, Bangladesh</p>
-        <p>I recently completed my undergraduate degree in computer science and engineering at Leading University (LU) in Sylhet.</p>
+
+        <p>I recently completed my undergraduate degree in computer science and engineering at Leading University(LU),Sylhet.</p>
 
         <h2>Git Uses</h2>
         <p>Git is a tool used for:</p>
@@ -141,4 +142,6 @@ git branch -M main
 git push -u origin main</code></pre>
     </div>
 </body>
+
+
 </html>
