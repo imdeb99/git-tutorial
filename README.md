@@ -1,48 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Git Tutorial by Apu Deb Chowdhury</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f7f7f7;
-        }
-        .container {
-            max-width: 800px;
-            margin: 20px auto;
-            background: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-        h1, h2, h3 {
-            color: #333;
-        }
-        p {
-            line-height: 1.6;
-            color: #555;
-        }
-        pre {
-            background: #f4f4f4;
-            padding: 10px;
-            border-radius: 4px;
-            overflow-x: auto;
-        }
-        code {
-            font-family: Consolas, "Courier New", monospace;
-            background: #f4f4f4;
-            padding: 2px 4px;
-            border-radius: 4px;
-        }
-        ul, ol {
-            margin: 10px 0 10px 20px;
-        }
-    </style>
-</head>
+
 <body>
     <div class="container">
         <h1>Git Tutorial</h1>
@@ -93,10 +49,14 @@
             <li><strong>Git Initialization:</strong>
                 <pre><code>git init</code></pre>
             </li>
+
             <li><strong>Git Add:</strong>
-                <pre><code>git add [file name]   // to add a specific file
-git add .          // to add all files</code></pre>
+                <> <code> git add [file name]   // to add a specific file
+                
+                <pre> git add . </pre>         // to add all files</code> <>
+
                 <p>Check file status (modified or not):</p>
+                
                 <pre><code>git status</code></pre>
                 <p>Restore file status:</p>
                 <pre><code>git restore [file name]</code></pre>
@@ -105,7 +65,7 @@ git add .          // to add all files</code></pre>
             </li>
             <li><strong>Git Commit:</strong>
                 <pre><code>git commit -m "first commit"   // send a message like 'first commit'
--m refers to the message</code></pre>
+                            -m refers to the message</code></pre>
                 <p>Check commit history:</p>
                 <pre><code>git log</code></pre>
                 <p>Check commit history with summary:</p>
